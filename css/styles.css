@@ -1,0 +1,156 @@
+/* ---- HOME PAGE ---- */
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(33, 33, 33, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.web,
+.studio-header,
+.studio-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.web {
+  color: rgba(33, 150, 243, 1);
+}
+
+:root {
+  --studio-header-color: rgba(33, 33, 33, 1);
+  --studio-footer-color: rgba(255, 255, 255, 1);
+}
+
+.studio-header {
+  color: var(--studio-header-color);
+}
+
+.studio-footer {
+  color: var(--studio-footer-color);
+}
+
+.bookmarks > li > a {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(33, 33, 33, 1);
+}
+
+.bookmarks > li > a:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.contact > li > a {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(117, 117, 117, 1);
+}
+
+.contact > li > a:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+h1 {
+  font-size: 44px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.4;
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.btn-order {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
+  border-color: #2196f3;
+  line-height: 1.9;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.lorem-header {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.lorem-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(117, 117, 117, 1);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.team {
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  font-weight: medium;
+}
+
+.position-job {
+  font-size: 16px;
+  font-weight: medium;
+  color: rgba(117, 117, 117, 1);
+}
+
+footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+
+address {
+  font-style: normal;
+}
+
+.city {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* ---- PAGE PORTFOLIO ---- */
+.btn-portfolio > li > button {
+  font-size: 16px;
+  font-weight: 500;
+  font-weight: bold;
+  line-height: 1.6;
+  background-color: rgba(245, 244, 250, 1);
+  border-color: rgba(245, 244, 250, 1);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-portfolio > li > button:hover {
+  background-color: rgba(33, 150, 243, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.design-name {
+  font-size: 18px;
+  font-weight: 700;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.design-version {
+  font-size: 16px;
+  line-height: 1.9;
+  color: rgba(117, 117, 117, 1);
+}
