@@ -4,16 +4,23 @@ body {
   color: rgba(33, 33, 33, 1);
 }
 
+.container {
+  max-width: 1200px;
+}
+
 a {
   text-decoration: none;
 }
 
 li {
   list-style-type: none;
+  display: inline;
 }
 
-.container {
-  max-width: 1200px;
+.webstudio {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 215px;
 }
 
 .web,
@@ -41,10 +48,17 @@ li {
   color: var(--studio-footer-color);
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .bookmarks > li > a {
   font-size: 14px;
   font-weight: 500;
   color: rgba(33, 33, 33, 1);
+  margin-right: 46px;
 }
 
 .bookmarks > li > a:hover {
@@ -55,6 +69,7 @@ li {
   font-size: 14px;
   font-weight: 500;
   color: rgba(117, 117, 117, 1);
+  margin-right: 50px;
 }
 
 .contact > li > a:hover {
