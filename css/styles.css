@@ -157,33 +157,64 @@ nav {
   box-sizing: border-box;
 }
 
+.what-we-do {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
 h2 {
   font-size: 36px;
   font-weight: bold;
 }
 
-.work {
+/* .work {
   justify-content: center;
-}
+} */
 
-.images-work {
+.images-work-what-we-do {
   margin-right: 30px;
 }
 
-.team {
+/* .images-work {
+  margin-right: 30px;
+} */
+
+.images-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.our-team-background {
   background-color: rgba(245, 244, 250, 1);
+}
+.our-team {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
+.images-persons {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc((100% - 20px) / 3);
+  margin: unset;
+  border: 2px solid pink;
+  justify-content: center;
 }
 
 .name {
   font-size: 16px;
   font-weight: bold;
   font-weight: medium;
+  justify-content: center;
 }
 
 .position-job {
   font-size: 16px;
   font-weight: medium;
   color: rgba(117, 117, 117, 1);
+  justify-content: center;
 }
 
 footer {
