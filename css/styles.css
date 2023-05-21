@@ -337,7 +337,6 @@ address {
   background-color: rgba(245, 244, 250, 1);
   border-color: rgba(245, 244, 250, 1);
   padding: 6px 22px 6px 22px;
-  margin-right: 9px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -355,8 +354,8 @@ address {
   display: inline-flex;
   justify-content: space-between;
   padding-top: 70px;
-  padding-right: 500px;
-  padding-left: 500px;
+  padding-right: 510px;
+  padding-left: 510px;
   padding-bottom: 40px;
 }
 
@@ -383,6 +382,15 @@ address {
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
 }
+
+/* .design-img-border {
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+} */
 
 /* .design-img:nth-child(2n + 1) {
   margin-right: 0px;
