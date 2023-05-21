@@ -336,15 +336,28 @@ address {
   line-height: 1.6;
   background-color: rgba(245, 244, 250, 1);
   border-color: rgba(245, 244, 250, 1);
-  width: 200px;
-  height: 50px;
+  padding: 6px 22px 6px 22px;
+  margin-right: 9px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.btn-portfolio:last-child {
+  margin-right: 0;
 }
 
 .btn-portfolio > li > button:hover {
   background-color: rgba(33, 150, 243, 1);
   color: rgba(255, 255, 255, 1);
+}
+
+.btn-container {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-right: 500px;
+  padding-left: 500px;
+  padding-bottom: 40px;
 }
 
 .design-name {
