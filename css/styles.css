@@ -127,17 +127,22 @@ nav {
 }
 
 .btn-order {
-  cursor: pointer;
   font-size: 16px;
+  font-weight: 500;
   font-weight: bold;
-  color: rgba(255, 255, 255, 1);
+  line-height: 1.6;
   background-color: rgba(33, 150, 243, 1);
-  border-color: #2196f3;
-  line-height: 1.9;
+  color: white;
   width: 200px;
   height: 50px;
   border-radius: 4px;
+  cursor: pointer;
   margin: auto 700px 200px 700px;
+}
+
+.btn-order > li > button:hover {
+  background-color: rgba(33, 150, 243, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 main {
@@ -302,9 +307,12 @@ address {
   font-size: 14px;
   font-weight: 500;
   color: rgba(117, 117, 117, 1);
-  /* margin-right: 30px; */
   padding-left: 215px;
   padding-bottom: 9px;
+}
+
+.contact-footer-mail > li > a:hover {
+  color: rgba(33, 150, 243, 1);
 }
 
 .contact-footer-tel > li > a {
@@ -312,9 +320,12 @@ address {
   font-size: 14px;
   font-weight: 500;
   color: rgba(117, 117, 117, 1);
-  /* margin-right: 30px; */
   padding-left: 215px;
   padding-bottom: 60px;
+}
+
+.contact-footer-tel > li > a:hover {
+  color: rgba(33, 150, 243, 1);
 }
 
 /* ---- PAGE PORTFOLIO ----*/
